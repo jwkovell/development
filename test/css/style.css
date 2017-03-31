@@ -1,0 +1,46 @@
+svg {
+}
+
+body {
+  margin: 0px;
+  overflow: hidden;
+  font-family: sans-serif;
+}
+
+#dashboard {
+  position: fixed;
+  font-size: 80%;
+  bottom: 5px;
+  right: 5px;
+  border-top: 2px solid #333;
+  border-right: 2px solid #333;
+  border-left: 2px solid #333;
+  background-color: #ddd;
+}
+
+.field {
+  border-bottom: 2px solid #333;
+}
+
+.field:after {
+  content: ".";
+  display: block;
+  clear: both;
+  height: 0;
+  visibility: hidden;
+}
+
+.field label,
+.field span {
+  padding: .25em .5em;
+  display: block;
+  float: left;
+}
+
+.field label {
+  width: 8em;
+  text-align: right;
+  font-weight: bold;
+  background-color: #fff;
+  border-right: 1px solid #333;
+}
